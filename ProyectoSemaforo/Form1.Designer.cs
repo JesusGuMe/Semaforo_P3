@@ -57,7 +57,7 @@
             btnInicio.Cursor = Cursors.Hand;
             btnInicio.FlatStyle = FlatStyle.Popup;
             btnInicio.ForeColor = SystemColors.ControlText;
-            btnInicio.Location = new Point(479, 389);
+            btnInicio.Location = new Point(560, 141);
             btnInicio.Name = "btnInicio";
             btnInicio.Size = new Size(98, 31);
             btnInicio.TabIndex = 0;
@@ -71,7 +71,7 @@
             btnPrev.Cursor = Cursors.Hand;
             btnPrev.FlatStyle = FlatStyle.Popup;
             btnPrev.ForeColor = SystemColors.ControlText;
-            btnPrev.Location = new Point(593, 389);
+            btnPrev.Location = new Point(664, 141);
             btnPrev.Name = "btnPrev";
             btnPrev.Size = new Size(98, 31);
             btnPrev.TabIndex = 1;
@@ -85,7 +85,7 @@
             btnApagar.Cursor = Cursors.Hand;
             btnApagar.FlatStyle = FlatStyle.Popup;
             btnApagar.ForeColor = SystemColors.ControlText;
-            btnApagar.Location = new Point(479, 426);
+            btnApagar.Location = new Point(560, 178);
             btnApagar.Name = "btnApagar";
             btnApagar.Size = new Size(98, 31);
             btnApagar.TabIndex = 2;
@@ -99,7 +99,7 @@
             btnSalir.Cursor = Cursors.Hand;
             btnSalir.FlatStyle = FlatStyle.Popup;
             btnSalir.ForeColor = SystemColors.ControlText;
-            btnSalir.Location = new Point(593, 426);
+            btnSalir.Location = new Point(664, 178);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(98, 31);
             btnSalir.TabIndex = 3;
@@ -110,9 +110,9 @@
             // lblCont
             // 
             lblCont.BackColor = Color.Black;
-            lblCont.Font = new Font("Arial Rounded MT Bold", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            lblCont.Font = new Font("Digital-7", 36F, FontStyle.Regular, GraphicsUnit.Point);
             lblCont.ForeColor = SystemColors.ButtonFace;
-            lblCont.Location = new Point(269, 281);
+            lblCont.Location = new Point(389, 349);
             lblCont.Name = "lblCont";
             lblCont.Size = new Size(87, 64);
             lblCont.TabIndex = 4;
@@ -123,7 +123,7 @@
             // 
             SemOeste.BackColor = Color.Black;
             SemOeste.Image = Properties.Resources.Sema_Off2_0_LatI;
-            SemOeste.Location = new Point(177, 208);
+            SemOeste.Location = new Point(281, 266);
             SemOeste.Name = "SemOeste";
             SemOeste.Size = new Size(80, 55);
             SemOeste.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -134,7 +134,7 @@
             // 
             SemSur.BackColor = Color.Black;
             SemSur.Image = Properties.Resources.Sema_Off2_0_A;
-            SemSur.Location = new Point(201, 365);
+            SemSur.Location = new Point(329, 452);
             SemSur.Name = "SemSur";
             SemSur.Size = new Size(56, 82);
             SemSur.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -145,7 +145,7 @@
             // 
             SemEste.BackColor = Color.Black;
             SemEste.Image = Properties.Resources.Sema_Off2_0_LatD;
-            SemEste.Location = new Point(365, 365);
+            SemEste.Location = new Point(544, 419);
             SemEste.Name = "SemEste";
             SemEste.Size = new Size(80, 55);
             SemEste.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -157,7 +157,7 @@
             // 
             SemNorte.BackColor = Color.Black;
             SemNorte.Image = Properties.Resources.Sema_Off2_0;
-            SemNorte.Location = new Point(358, 173);
+            SemNorte.Location = new Point(502, 239);
             SemNorte.Name = "SemNorte";
             SemNorte.Size = new Size(56, 82);
             SemNorte.SizeMode = PictureBoxSizeMode.StretchImage;
